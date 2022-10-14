@@ -7,7 +7,7 @@ let toDolist = [];
 buttonTask.addEventListener("click", (event) => {
   event.preventDefault();
 
-  if (list.classList.contains("lista-vazia")) {
+  if (list.children[0].classList.contains("lista-vazia")) {
     list.removeChild(vazio);
   }
 
