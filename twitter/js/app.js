@@ -48,5 +48,3 @@ function createPost(tweet){
     divMain.innerHTML = post
     listPosts.appendChild(divMain);
 }
-
-ff
