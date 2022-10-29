@@ -10,4 +10,3 @@ document.write(
   Altura: ${altura} --
   Area: ${area} | Perímetro: ${perimetro}`
 );
-git 
