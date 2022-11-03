@@ -39,9 +39,15 @@ function createPost(tweet){
             </div>
           </div>
           <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
+            <span class="material-icons"> 
+                <i class="fa-solid fa-pen-to-square"></i>
+            </span>
+            <span class="material-icons"> 
+                <i class="fa-solid fa-heart"></i>
+            </span>
+            <span class="material-icons"> 
+                <i class="fa-solid fa-trash"></i>
+             </span>
           </div>
         </div>
     `;
